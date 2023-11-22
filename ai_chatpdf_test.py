@@ -28,7 +28,7 @@ st.write("---")
 openai_key = st.text_input('OPEN_AI_API_KEY', type="password")
 
 st.write("---") # st.write() 에서 마크다운 문법사용가능, '---': 구분선 기능 
-st.subheader('pdf를 넣으면 pdf에 대해 질문할 수 있어요 ', divider='rainbow')
+st.subheader('pdf를 넣으면 pdf에 대해 질문할 수 있어요 :sunglasses: ', divider='rainbow')
 
 #파일 업로드
 uploaded_file = st.file_uploader("PDF 파일을 업로드해주세요!",type=['pdf']) #type 옵션은 업로드 파일 pdf로 제한두겠다는 것 
